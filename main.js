@@ -16,10 +16,10 @@ recognition.addEventListener('result', (e)=>{
 
   p.innerText = text;
   if(e.results[0].isFinal){
-    if (text.includes('hola')) {
+    if (text.includes('Hola')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'hola';
+      p.innerText = 'Hola.....';
       texts.appendChild(p)
     }
     if (text.includes("me llamo miguel") || text.includes('me llamo miguel')) {
