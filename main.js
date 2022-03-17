@@ -19,22 +19,22 @@ recognition.addEventListener('result', (e)=>{
     if (text.includes('Hola')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'Hola.....';
+      p.innerText = 'Hola mi  niña hermosa';
       texts.appendChild(p)
     }
-    if (text.includes("me llamo miguel") || text.includes('me llamo miguel')) {
+    if (text.includes("te amo") || text.includes('te amo')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'My Name is Cifar';
+      p.innerText = 'Te amo mucho más mi vida hermosa, eres todo para mi y eres lo mejor de mi vida';
       texts.appendChild(p)
     }
-    if (text.includes('reproduce mi video favorito')) {
+    if (text.includes('reproduce Nuestra canción')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'reproduce mi video favorito';
+      p.innerText = 'reproduce Nuestra canción';
       texts.appendChild(p)
       console.log('opening youtube')
-      window.open('https://www.youtube.com/watch?v=9BMwcO6_hyA')
+      window.open('https://www.youtube.com/watch?v=ELsgRAGIgw0')
     }
     p = document.createElement('p');
   }
