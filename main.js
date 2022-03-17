@@ -28,10 +28,10 @@ recognition.addEventListener('result', (e)=>{
       p.innerText = 'Te amo mucho más mi vida hermosa, eres todo para mi y eres lo mejor de mi vida';
       texts.appendChild(p)
     }
-    if (text.includes('reproduce Nuestra canción')) {
+    if (text.includes('Reproduce Nuestra canción')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'reproduce Nuestra canción';
+      p.innerText = 'Reproduce Nuestra canción';
       texts.appendChild(p)
       console.log('opening youtube')
       window.open('https://www.youtube.com/watch?v=ELsgRAGIgw0')
