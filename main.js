@@ -28,6 +28,12 @@ recognition.addEventListener('result', (e)=>{
       p.innerText = 'Te amo mucho más mi vida hermosa, eres todo para mi y eres lo mejor de mi vida';
       texts.appendChild(p)
     }
+    if (text.includes("estoy triste") || text.includes('estoy triste ')) {
+      p = document.createElement('p');
+      p.classList.add('replay');
+      p.innerText = 'Mi niña hermosa recuerda que te amo demasido y que siempre estoy para ti, recuerda también que eres una persona increible y la niña más hermosa siempre estare aquí para ti';
+      texts.appendChild(p)
+    }
     if (text.includes('Reproduce Nuestra canción')) {
       p = document.createElement('p');
       p.classList.add('replay');
