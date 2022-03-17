@@ -31,7 +31,7 @@ recognition.addEventListener('result', (e)=>{
     if (text.includes("estoy triste") || text.includes('estoy triste ')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'Mi niña hermosa recuerda que te amo demasido y que siempre estoy para ti, recuerda también que eres una persona increible y la niña más hermosa siempre estare aquí para ti';
+      p.innerText = 'Mi niña hermosa recuerda que te amo demasido y que siempre estoy para ti, recuerda también que eres una persona increible y la niña más hermosa. Te mando millones de abrazos de mucho apoyo y para que ya no estes triste, Te amo con todo el corazón';
       texts.appendChild(p)
     }
     if (text.includes('Reproduce Nuestra canción')) {
