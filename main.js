@@ -31,7 +31,7 @@ recognition.addEventListener('result', (e)=>{
     if (text.includes('Reproduce Nuestra canción')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'Reproduce Nuestra canción';
+      p.innerText = 'Te amo mucho y tu mandas';
       texts.appendChild(p)
       console.log('opening youtube')
       window.open('https://www.youtube.com/watch?v=ELsgRAGIgw0')
